@@ -31,8 +31,8 @@
 	</dependencies>
 
 	<build>
-		<plugins>
-			 <!-- Spring Boot plugin -->
+    <plugins>
+        <!-- Spring Boot plugin -->
         <plugin>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-maven-plugin</artifactId>
@@ -46,8 +46,8 @@
                 <failOnMissingWebXml>false</failOnMissingWebXml>
             </configuration>
         </plugin>
-			</plugin>
-		</plugins>
-	</build>
+    </plugins>
+</build>
+
 
 </project>
